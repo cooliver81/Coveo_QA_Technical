@@ -3,9 +3,9 @@
 ## Configuration
 * I cloned the carina demo project and removed unecessary demo files and renamed the project
 * Followed the Carina documentation: 
-** Built the project with Maven
-** Configured the Eclipse project with Java and Selenium libaries
-** Downloaded and start the Selenium Standalone Server with Chromedriver
+  * Built the project with Maven
+  * Configured the Eclipse project with Java and Selenium libaries
+  * Downloaded and start the Selenium Standalone Server with Chromedriver
 
 ## Tests and Classes
 
@@ -15,8 +15,8 @@ The tests were implemented sequentially. I tried to cover as many functionalitie
 
 ## Potential Improvements
 * The test cases can be improved
-** Many of the tests can be reimplemented for each page, verifying that they all work in the proper way. 
-** The button to toggle all of the todos was not tested (details below in the "Problems" section)
+  * Many of the tests can be reimplemented for each page, verifying that they all work in the proper way. 
+  * The button to toggle all of the todos was not tested (details below in the "Problems" section)
 * Classing the tests into groups to better organize the tests
 * Adding priorities to the tests to increase usability of the tests
 * As I wrote the tests, I realized that in a much larger test case, the readability could be improved. I did however try to keep it legible with clear variable and function names with thorough documentation. 
