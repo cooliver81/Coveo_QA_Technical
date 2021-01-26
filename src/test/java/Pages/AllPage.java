@@ -10,11 +10,13 @@ public class AllPage extends Page {
 		super(driver);
 	}
 
+	// Function to navigate to the Active Page from All Page
 	public void navigateToActivePage() {
 		activeButton = driver.findElement(By.xpath("//a[@href='#/active']"));
 		activeButton.click();
 	}
 	
+	// Function to navigate to the Completed Page from All Page
 	public void navigateToCompletedPage() {
 		completedButton = driver.findElement(By.xpath("//a[@href='#/completed']"));
 		completedButton.click();
